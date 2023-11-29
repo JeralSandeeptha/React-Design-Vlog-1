@@ -1,0 +1,58 @@
+.status {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .left {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../assets//images//taco.png');
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffe8cd;
+
+        .logo {
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .status {
+        grid-template-columns: 1fr;
+        
+        .left {
+            min-height: 50vh;
+            background-position-y: -40px;
+        }
+    
+        .right {
+            padding: 10%;
+    
+            .logo {
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .status {
+        
+        .left {
+            background-position-y: 0px;
+        }
+    
+        .right {
+    
+            .logo {
+    
+            }
+        }
+    }
+}
