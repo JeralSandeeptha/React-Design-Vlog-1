@@ -1,10 +1,15 @@
 import React from 'react'
 import './Home.scss';
+import Hero from '../../components/hero/Hero';
 
 const Home = () => {
+
   return (
-    <div>Home</div>
-  )
+    <>
+      <Hero />
+    </>
+  );
+  
 }
 
 export default Home;
