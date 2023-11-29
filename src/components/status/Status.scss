@@ -1,0 +1,62 @@
+.status-cards {
+    width: 100%;
+    min-height: 80vh;
+    padding: 5% 0;
+    background-color: #e8572b;
+
+    .status-cards-inner {
+        max-width: 1100px;
+        min-height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .status-img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .status-cards {
+        padding: 5% 5%;
+
+        .status-cards-inner {
+    
+            .status-img {
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .status-cards {
+        padding: 5% 5%;
+
+        .status-cards-inner {
+            grid-template-columns: 1fr 1fr;
+    
+            .status-img {
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .status-cards {
+        padding: 5% 5%;
+
+        .status-cards-inner {
+            grid-template-columns: 1fr;
+    
+            .status-img {
+                
+            }
+        }
+    }
+}
