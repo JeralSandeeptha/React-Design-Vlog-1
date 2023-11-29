@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.yes {
+    width: 100%;
+    min-height: 100vh;
+
+    .yes-inner {
+        width: 100%;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .left {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+
+            .up {
+                background-size: cover;
+                background-repeat: none;
+                background-image: url('../../assets//images/hero-down-1.png');
+            }
+
+            .down {
+                background-color: #fece46;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+
+                h1 {
+                    font-family: 'Montserrat', sans-serif;
+                    color: #e8572b; 
+                    font-size: 100px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e8572b;
+
+            .yellowLogo {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .yes {
+    
+        .yes-inner {
+    
+            .left {
+    
+                .up {
+                    
+                }
+    
+                .down {
+                    
+                    h1 {
+                        font-size: 80px;
+                    }
+                }
+            }
+    
+            .right {
+    
+                .yellowLogo {
+                    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .yes {
+    
+        .yes-inner {
+    
+            .left {
+    
+                .up {
+                    
+                }
+    
+                .down {
+                    
+                    h1 {
+                        font-size: 60px;
+                    }
+                }
+            }
+    
+            .right {
+    
+                .yellowLogo {
+                    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .yes {
+    
+        .yes-inner {
+            grid-template-columns: 1fr;
+    
+            .left {
+                
+                .up {
+                    min-height: 50vh;
+                }
+                
+                .down {
+                    min-height: 50vh;
+
+                    h1 {
+                        font-size: 60px;
+                    }
+                }
+            }
+    
+            .right {
+                min-height: 50vh;
+                padding: 5% 3%;
+    
+                .yellowLogo {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .yes {
+    
+        .yes-inner {
+    
+            .left {
+                
+                .up {
+                    
+                }
+                
+                .down {
+
+                    h1 {
+                        font-size:50px;
+                    }
+                }
+            }
+    
+            .right {
+    
+                .yellowLogo {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
