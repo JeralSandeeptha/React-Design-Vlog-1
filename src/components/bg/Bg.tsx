@@ -3,7 +3,9 @@ import './Bg.scss';
 
 const Bg = () => {
   return (
-    <div>Bg</div>
+    <div className='bg'>
+
+    </div>
   )
 }
 
