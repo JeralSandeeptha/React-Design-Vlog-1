@@ -1,0 +1,23 @@
+.bag {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fece46;
+    overflow-x: hidden;
+
+    .bag-img {
+        width: 80%;   
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bag {
+        min-height: 75vh;
+    
+        .bag-img {
+            width: 500px; 
+        }
+    }
+}
