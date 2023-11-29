@@ -10,6 +10,7 @@ import Status from '../../components/status/Status';
 import Bag from '../../components/bag/Bag';
 import Contact from '../../components/contact/Contact';
 import StatusDown from '../../components/status-down/StatusDown';
+import Footer from '../../components/footer/Footer';
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
       <StatusDown />
       <Bag />
       <Contact />
+      <Footer />
     </>
   );
   
