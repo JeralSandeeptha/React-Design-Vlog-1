@@ -1,0 +1,101 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../assets/images//hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    overflow-x: hidden;
+
+    .hero-inner {
+        padding-top: 101px;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+
+        .red-logo {
+            width: 33%;
+            height: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 1375px) {
+    .hero {
+    
+        .hero-inner {
+            padding-top: 50px;
+    
+            .red-logo {
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        background-position-x: -400px;
+    
+        .hero-inner {
+    
+            .red-logo {
+                width: 500px;
+                height: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero {
+        background-position-x: -400px;
+    
+        .hero-inner {
+    
+            .red-logo {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .hero {
+        background-position-x: -200px;
+    
+        .hero-inner {
+    
+            .red-logo {
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero {
+        background-position-x: -200px;
+    
+        .hero-inner {
+    
+            .red-logo {
+                width: 280px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+        background-position-x: -200px;
+    
+        .hero-inner {
+    
+            .red-logo {
+                width: 240px;
+            }
+        }
+    }
+}
