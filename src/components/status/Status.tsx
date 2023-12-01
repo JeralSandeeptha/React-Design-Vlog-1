@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Status.scss';
 import status1 from '../../assets/images/card-1.png';
 import status2 from '../../assets/images/card-2.png';
 import status3 from '../../assets/images/card-3.png';
+import gsap from 'gsap';
 
 const Status = () => {
+
+  useEffect( () => {
+    playAnim();
+  }, []);
+
+  const playAnim = () => {
+    
+  }
 
   return (
     <div className='status-cards'>
@@ -18,4 +27,4 @@ const Status = () => {
 
 }
 
-export default Status
+export default Status;

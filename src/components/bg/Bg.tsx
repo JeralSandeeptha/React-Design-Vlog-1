@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Bg.scss';
 
 const Bg = () => {
+
   return (
     <div className='bg'>
 
@@ -9,4 +10,4 @@ const Bg = () => {
   )
 }
 
-export default Bg
+export default Bg;
