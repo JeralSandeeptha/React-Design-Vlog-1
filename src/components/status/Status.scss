@@ -16,6 +16,12 @@
 
         .status-img {
             width: 100%;
+            cursor: pointer;
+            transition: all 1s ease-in-out;
+
+            &:hover {
+                transform: rotateZ(5deg);
+            }
         }
     }
 }
